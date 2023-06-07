@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shirink-to-fit=no">
+    <title>Nutritodos | Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="super-info-bg">
+        <div class="super-info">
+            <p>Seg a Sex 08:00 às 18:00</p>
+            <a href="tel: 11 9 9999 9999">11 9 6456 2656</a>
+            <p>Av. Paulista, 1106  -  01311-000</p>
+        </div> 
+    </div>
+
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="#">Nutritodos</a>
+            </div>    
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="agricultura-sustentavel.html">Agricultura</a></li>
+                <li><a href="inteligencia-artificial.html">Inteligência Artificial</a></li>
+                <li><a href="modelo-cultivo-eficiente.html">Cultivo Eficientes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>      
+            </div>
+    </header>
+    <section class="section-contato">
+        <h1 class="introducao-contato">Contato</h1>
+        <p class="introducao-p">Entre em contato com nossa equipe</p>
+    </section>
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h2>Formulário de Contato</h2>
+            <p>Um formulário de contato é uma maneira simples e eficiente para os visitantes do site se comunicarem diretamente, fornecendo suas informações e enviando mensagens aos administradores do site.</p>       
+            <form class="align-items-center">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn-contato">Enviar</button>
+        </form> 
+        </div>    
+    </section>
+
+    
+    
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h2>Formulário de Avaliação</h2>
+            <p>Um formulário de avaliação é uma ferramenta que permite aos usuários expressarem suas opiniões e fornecerem feedback sobre produtos, serviços ou experiências, contribuindo para a melhoria contínua e a satisfação do público.</p>
+            <form class="align-items-center">
+                <label for="rating">Avaliação:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Selecione...</option>
+                    <option value="1">1 Estrela</option>
+                    <option value="2">2 Estrelas</option>
+                    <option value="3">3 Estrelas</option>
+                    <option value="4">4 Estrelas</option>
+                    <option value="5">5 Estrelas</option>
+                </select>
+        
+                <label for="comments">Comentários:</label>
+                <textarea id="comments" name="comments"></textarea>
+        
+                <button type="submit" class="btn-contato">Enviar Avaliação</button>
+            </form>
+        </div>        
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h2>Formulário de Inscrição</h2>
+            <p>Um formulário de inscrição é uma forma conveniente para os usuários se cadastrarem em um evento, serviço ou boletim informativo, fornecendo suas informações pessoais e permitindo que sejam adicionados a uma lista ou banco de dados para receberem atualizações e participarem de atividades específicas.</p>
+            <form>        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone">
+    
+        
+                <button type="submit" class="btn-contato">Inscrever</button>
+            </form>
+        </div>        
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h2>Formulário de Pesquisa</h2>
+            <p>
+                Um formulário de pesquisa é uma ferramenta utilizada para coletar informações e opiniões dos usuários sobre um determinado assunto, permitindo que sejam feitas análises e tomadas de decisões com base nos dados obtidos, visando a melhoria e o aprimoramento de produtos, serviços ou experiências.</p>
+            <form>
+                <label for="search">Pesquisar:</label>
+                <input type="text" id="search" name="search" required>
+        
+                <button type="submit" class="btn-contato">Buscar</button>
+            </form>
+        </div>        
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h2>Formulário de Login</h2>
+            <p>Um formulário de login é uma interface que permite aos usuários inserirem suas credenciais, como nome de usuário e senha, para acessar uma conta ou sistema protegido.</p>
+            <div class="login-container">
+                    <form>
+                        <label for="username">Usuário:</label>
+                        <input type="text" id="username" name="username" required>
+            
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" name="password" required>
+            
+                        <input type="submit" value="Entrar" class="btn-contato">
+                    </form>
+                </div>
+        </div>        
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h2>Formulário de Upload</h2>
+            <p>Um formulário de upload de arquivo é uma ferramenta que permite aos usuários selecionarem e enviarem arquivos a partir de seus dispositivos para um servidor ou sistema, possibilitando o compartilhamento e armazenamento de diferentes tipos de dados.</p>
+                <div class="login-container">
+                    <form enctype="multipart/form-data" action="processar-upload.php" method="POST">
+                        <label for="file">Selecione um arquivo:</label>
+                        <input type="file" id="file" name="file" required>
+            
+                        <input type="submit" value="Enviar" class="btn-contato">
+                    </form>
+            
+                </div>
+        </div>        
+    </section>
+
+    <section class="news">
+        <div class="news-info">
+            <h2>Newsletter</h2>
+            <p>assine e fique por dentro das novidades</p>
+        </div>
+        <form class="news-form"> 
+            <input type="text" placeholder="Seu e-mail"> 
+            <button type="submit" class="btn-contato">Assinar</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Nutritodos © Todos os direitos reservados.</p> 
+    </footer>
+    <div class="footer">
+        <span>GABRIEL DIAS - RM550969 </span> 
+        <span>LUÍS FELIPE SANTANA DE ALMEIDA E SILVA - RM551286</span> 
+        <span>LUIZ FELIPE BIAZZOLA CAVALCANTE - RM99250 </span> 
+    </div>
+</body>
+</html>
